@@ -9,3 +9,7 @@ If you would push a code, please mark the number of that problem in the commit c
 Chen
 
 Thanks.
+
+##Updates
+
+**I put my code written in C++ in the file CPP, the name of the file indicates the number of the problem in LeetCode**
