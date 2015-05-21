@@ -6,6 +6,8 @@ I will push my codes here.
 
 If you would push a code, please mark the number of that problem in the commit comment.
 
+I'd like to introduce Ruiqi Liu to you guys. He was my class mate at NJU. He is also willing to share his code with us. Happy Hack on!!
+
 Chen
 
 Thanks.
