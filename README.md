@@ -13,3 +13,5 @@ Thanks.
 ##Updates
 
 **I put my code written in C++ in the file CPP, the name of the file indicates the number of the problem in LeetCode**
+
+Roses are <span style="color:red">red</span>, violets are <span style="color:blue">blue</span>.
