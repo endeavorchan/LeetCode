@@ -20,7 +20,8 @@ public class Solution {
     public int maxHalfPath(TreeNode root) {
     	if (root == null)
     		return 0;
-    	int maxSubPath = Math.max(maxHalfPath(root.left), maxHalfPath(root.right));
+    	
+    	//int maxSubPath = Math.max(maxHalfPath(root.left), maxHalfPath(root.right));
     	
     	int temp = Math.max(maxHalfPath(root.left), maxHalfPath(root.right)) + root.val;
     	
