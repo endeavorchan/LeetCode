@@ -1,0 +1,31 @@
+package rotateArray;
+
+public class Solution3 {
+	public void rotate(int[] arr, int order) {
+		order = order % arr.length;
+		
+		if (arr == null || order < 0) {
+			throw new IllegalArgumentException("Illegal argument!");
+		}
+		
+		int a = arr.length - order;
+		
+		reverse(arr, 0, a - 1);
+		reverse(arr, a, arr.length - 1);
+		reverse(arr, 0, arr.length - 1);
+	}
+
+	private void reverse(int[] arr, int left, int right) {
+		if (arr == null || arr.length == 1) 
+			return;
+		
+		while (left < right) {
+			int temp = arr[left];
+			arr[left] = arr[right];
+			arr[right] = temp;
+			left++;
+			right--;
+		}
+		
+	}
+}
